@@ -1,7 +1,6 @@
-````markdown
 # Zen Pilot — Releases
 
-Distribution channel for Zen Pilot desktop builds.
+Distribution channel for **Zen Pilot** desktop builds.
 
 Zen Pilot is a multi-account browser profile manager: isolate browser profiles with unique
 fingerprints and run many accounts from one window.
@@ -41,10 +40,9 @@ Compare against the value in the release notes before running the installer.
 ## macOS: first launch
 
 macOS builds are not notarized. If Gatekeeper blocks the app, open
-System Settings → Privacy & Security and click Open Anyway.
+**System Settings → Privacy & Security** and click **Open Anyway**.
 
 ## License
 
 Zen Pilot is commercial software. Binaries are provided for end users to install and use.
 No license to the source code is granted. See [LICENSE](LICENSE) for the full terms.
-````

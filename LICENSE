@@ -1,0 +1,33 @@
+Copyright (c) 2026 Zen Pilot. All rights reserved.
+
+This repository distributes compiled binaries of Zen Pilot, a commercial
+application. It contains no source code.
+
+## Permitted
+
+The binaries are provided so end users can download and install Zen Pilot for
+their own personal or business use, subject to the license terms presented
+inside the application.
+
+## Not permitted
+
+Without prior written permission from the copyright holder, you may not:
+
+  - redistribute, resell, sublicense, or repackage the binaries;
+  - include them in another product, bundle, or service;
+  - reverse engineer, decompile, or disassemble them, except to the extent
+    such restriction is prohibited by applicable law;
+  - remove or alter any copyright, trademark, or license notice.
+
+## No source license
+
+No license, express or implied, is granted to the source code of Zen Pilot.
+The source is not published and remains proprietary.
+
+## No warranty
+
+The software is provided "as is", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose, and non-infringement. In no event shall the
+copyright holder be liable for any claim, damages, or other liability arising
+from the use of the software.
