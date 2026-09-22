@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ZenPilot Pro — Multi-Account & Anti-Detect Browser</title>
-  <meta name="description" content="ZenPilot Pro is a desktop anti-detect browser for managing unlimited online identities with unique fingerprints and per-profile proxies.">
+  <title>ZenPilot Pro — Multi-Account Browser Workspace</title>
+  <meta name="description" content="ZenPilot Pro is a desktop workspace that keeps every web account in its own isolated Chromium profile — separate cookies, storage, and cache, with per-profile proxies.">
   <link rel="canonical" href="https://vortex-freq.web.id/">
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; background: #0a0a0a; color: #fff; line-height: 1.6; }
@@ -17,25 +17,40 @@
     .features { display: grid; gap: 16px; text-align: left; margin: 48px 0; }
     .feature { background: #141414; padding: 20px; border-radius: 12px; border: 1px solid #1e1e1e; }
     .feature strong { color: #22c55e; }
+    .note { background: #141414; border: 1px solid #1e1e1e; border-left: 3px solid #22c55e; padding: 20px; border-radius: 12px; text-align: left; margin: 40px 0; }
+    .note h2 { font-size: 16px; margin: 0 0 10px; }
+    .note p { font-size: 15px; margin: 0 0 10px; }
+    .note p:last-child { margin-bottom: 0; }
     footer { margin-top: 60px; color: #6b7280; font-size: 14px; }
+    a { color: #22c55e; }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>ZenPilot Pro<br><span>One window. Unlimited identities.</span></h1>
-    <p>Desktop anti-detect browser for multi-account marketers, agencies, and power users. Unique fingerprints per profile, per-profile proxies, and WebRTC leak protection.</p>
-    <a href="https://anzenpilot.gumroad.com/l/zenpilot" class="cta">Buy Pro Access</a>
-    <a href="https://github.com/Sanxdy/zenpilot-releases/releases" class="cta secondary">Download Free Version</a>
+    <h1>ZenPilot Pro<br><span>One window. Separate sessions.</span></h1>
+    <p>A desktop workspace that keeps every web account in its own isolated Chromium profile — separate cookies, separate storage, separate cache. Manage dozens of accounts without logging in and out all day.</p>
+    <a href="https://anzenpilot.gumroad.com/l/zenpilot" class="cta">Buy Pro Access — $18.99 once</a>
+    <a href="https://github.com/Sanxdy/zenpilot-releases/releases/latest" class="cta secondary">Download Free Version</a>
     <a href="https://vortex-freq.web.id" class="cta secondary">Visit Main Website</a>
     <div class="features">
-      <div class="feature"><strong>Unique Fingerprints</strong> — Canvas, WebGL, audio, and user-agent isolation per profile.</div>
-      <div class="feature"><strong>Per-Profile Proxies</strong> — HTTP/SOCKS5 proxy support for every account.</div>
-      <div class="feature"><strong>WebRTC Leak Protection</strong> — Keep your real IP hidden across sessions.</div>
-      <div class="feature"><strong>Stealth Mode</strong> — Automatic fingerprint randomization on every launch.</div>
-      <div class="feature"><strong>No Subscriptions</strong> — One-time Pro license with lifetime updates.</div>
+      <div class="feature"><strong>Isolated Profiles</strong> — Each profile is its own persistent Chromium partition: separate cookies, localStorage, IndexedDB, and cache.</div>
+      <div class="feature"><strong>Per-Profile Proxies</strong> — Configure HTTP, HTTPS, SOCKS4, or SOCKS5 per account, with an app-wide default for profiles that set none.</div>
+      <div class="feature"><strong>Custom Browser Settings</strong> — Set the user agent, screen size, timezone, and rendering values a profile reports, so it looks the same on every sign-in.</div>
+      <div class="feature"><strong>Three Memory Modes</strong> — Always On keeps sessions in RAM, Lazy Load frees memory but preserves cookies, Manual Suspend hibernates single sessions.</div>
+      <div class="feature"><strong>Built-in Ad &amp; Tracker Blocker</strong> — Network-level request filtering plus DOM ad cleanup across active profiles.</div>
+      <div class="feature"><strong>Encrypted At Rest</strong> — Sensitive fields are encrypted with your OS keychain (macOS Keychain / Windows DPAPI). All data stays local.</div>
+      <div class="feature"><strong>No Subscriptions</strong> — One-time Pro license with lifetime updates. Free tier: 3 profiles, 2 services.</div>
     </div>
+
+    <div class="note">
+      <h2>What ZenPilot is not</h2>
+      <p><strong>ZenPilot is not an anti-detect browser.</strong> It does not defeat platform abuse or bot detection, and it makes no promise about whether an account gets flagged, restricted, or banned. It runs stock Chromium — the engine is not modified.</p>
+      <p>"Stealth mode" keeps a profile's reported values <em>consistent</em> across sign-ins. That is a consistency feature, not a disguise, and it is not sold as one. Accounts a platform has already linked through a payment method, recovery address, or phone number stay linked.</p>
+      <p>If you need genuine anonymity or to evade a specific platform's enforcement, this is not the tool for that. The WebRTC check is diagnostic — it shows which IPs your session exposes, it does not hide them.</p>
+    </div>
+
     <footer>
-      <p>© 2026 ZenPilot. <a href="https://vortex-freq.web.id" style="color:#22c55e">vortex-freq.web.id</a></p>
+      <p>© 2026 ZenPilot. <a href="https://vortex-freq.web.id">vortex-freq.web.id</a></p>
     </footer>
   </div>
 </body>
